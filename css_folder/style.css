@@ -1,0 +1,1044 @@
+html,
+body {
+    width: 100%;
+}
+
+header {
+    padding: 0 24px;
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    background-color: #EEEEEE;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.entry_title{
+    text-align: center;
+    width: 392px;
+    margin: 0 auto;
+}
+
+
+.membership {
+    margin-bottom: 20px;
+    background-color: #FFBB00;
+    width: 188px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.membership p {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: bold
+    
+}
+
+.entry_title_p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.header_contents {
+    display: flex;
+    align-items: center;
+}
+
+.headerIcon {
+    margin-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.entry2{
+    padding: 121px 0 60px 0;
+}
+
+
+
+.form {
+    margin-bottom: 20px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.label_contents {
+    margin-bottom: 20px;
+}
+
+.label_title {
+    display: flex;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#red {
+    color: red;
+}
+
+
+.doui {
+    display: flex;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+
+footer {
+    background-color: #FFBB00;
+    height: auto;
+}
+
+.footerWrapper {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footerContainer {
+    margin: 60px 0;
+    padding: 0 24px;
+    width: 923px;
+    height: 291px;
+}
+
+.footerText {
+    width: 606px;
+    height: 100%;
+}
+
+.kaisya {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.kaisyaDetail {
+    margin-top: 14px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.kaisyaDetails {
+    display: flex;
+    margin-top: 14px;
+}
+
+.c {
+    display: flex;
+    justify-content: end;
+    font-size: 10px;
+}
+
+
+
+
+html,
+body {
+    width: 100%;
+}
+
+header {
+    padding: 0 24px;
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    background-color: #EEEEEE;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.header_contents {
+    display: flex;
+    align-items: center;
+}
+
+.headerIcon {
+    margin-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    /* aタグを右端に寄せる */
+}
+
+ul li {
+    margin-left: 20px;
+    /* aタグの間隔を設定 */
+}
+
+.toB {
+    width: 300px;
+    height: 52px;
+    display: inline-block;
+    background-color: #9B9B9B;
+    /* グレーの背景色 */
+    color: #FFFFFF;
+    /* 白色のテキスト色 */
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    /* ホバー時のアニメーションを追加 */
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.entry {
+    width: 300px;
+    height: 52px;
+    display: inline-block;
+    background-color: #2C92BE;
+    /* グレーの背景色 */
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    /* ホバー時のアニメーションを追加 */
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+.btnText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.btnText p {
+    text-align: center;
+    color: #FFFFFF;
+    /* 白色のテキスト色 */
+    padding: 10px;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.bigText {
+    font-size: 32px;
+}
+
+.topView {
+    display: flex;
+    background: url(image/background.png);
+    background-size: 100%;
+    background-position: 0 43%;
+    background-repeat: no-repeat;
+}
+
+.topLeft {
+    width: 726px;
+    margin: 118px 24px 0 50px;
+}
+
+.fukidashi {
+    width: 100%;
+    height: 98px;
+    position: relative;
+}
+
+.fukidashi img {
+    width: 700px;
+    height: 118px;
+}
+
+.fukidashi p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+    line-height: 2;
+    font-weight: 700;
+    color: #FFBB00;
+}
+
+.topMessage img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.topRight {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv {
+    padding: 25px;
+    margin: 5px 0 40px 0;
+    width: 100%;
+    height: 30%;
+    background-color: #FFBB00;
+    text-align: center;
+}
+
+.cvImg {
+    width: 359px;
+}
+
+.cvBtn {
+    width: 475px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.Message_section {
+    background-color: rgba(255, 187, 0, 0.15);
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* 背景卵 */
+/* background-image:url(https://storage.googleapis.com/production-os-assets/assets/bd45ae07-5206-45aa-b214-719561112ea3);
+background-repeat: no-repeat;
+background-color:rgba(255,255,255,0.8); */
+
+.messageRight h2 {
+    color: #FFBB00;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.messageRight p {
+    margin-top: 30px;
+}
+
+.strong {
+    padding: 60px 0;
+    background-color: #EEEEEE;
+
+
+}
+
+.strongBox {
+    margin: 0 100px;
+    padding: 0 24px;
+    width: auto;
+}
+
+.strongContents {
+    width: 1194px;
+    margin: 70px 0 30px 0;
+    padding: 40px;
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.strongContentstitle {
+    display: flex;
+    justify-content: left;
+    color: #FFBB00;
+}
+
+.strongContentstitle p {
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.strongContentstitle h3 {
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 20px;
+    line-height: 1.6;
+    display: flex;
+    align-items: center;
+}
+
+.strongContentsText {
+    margin: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.textBold {
+    font-weight: bold;
+}
+
+.difference {
+    width: 100%;
+    height: 966px;
+    padding-top: 58px;
+    text-align: center;
+}
+
+.differenceTop {
+    margin: 60px 0;
+    padding: 0 24px;
+}
+
+.differenceTop h2 {
+    margin-top: 24px;
+    padding: 0 24px;
+    font-size: 48px;
+    border-bottom-left-radius: 1.4;
+    font-weight: 700;
+}
+
+.differenceTop p {
+    margin-top: 24px;
+    font-size: 14px;
+    border-bottom-left-radius: 1.4;
+    font-weight: 700;
+}
+
+.differenceBottom {
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.differenceBottom img {
+    height: 427px;
+}
+
+.differenceBottomText {
+    margin: 60px 0;
+    padding: 0 24px;
+    width: 563px;
+}
+
+.differenceBottomText h3 {
+    margin-top: 24px;
+    font-size: 28px;
+    color: #FFBB00;
+    font-weight: 700;
+    line-height: 1.4;
+
+}
+
+.differenceBottomText p {
+    margin-top: 24px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.4;
+
+}
+
+.anken {
+    padding: 60px 0;
+    background-color: rgba(255, 187, 0, 0.15);
+    text-align: center;
+}
+
+.ankenTop {
+    margin-bottom: 60px;
+}
+
+.ankenTop h2 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin: 20px;
+}
+
+.ankenTop p {
+    font-size: 24px;
+    line-height: 1.4;
+    margin: 20px;
+    font-weight: 400;
+    color: #FFBB00;
+}
+
+
+.ankenWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ankenDetail {
+    padding: 0 30px;
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+}
+
+.ankenContents {
+    margin: 0 20px;
+    padding: 60px 40px;
+    width: 380px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.ankenContents h4 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.price {
+    margin: 20px 0 60px 0;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.ankenText {
+    margin-bottom: 20px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.nagare {
+    padding: 60px 0;
+}
+
+.nagareImg {
+    width: 320px;
+    height: 180px;
+    background: url(./image/fukidashi2.png);
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.nagareImgInner {
+    width: 100%;
+    height: 104px;
+    object-fit: contain;
+    vertical-align: middle;
+    position: relative;
+    top: 7px;
+}
+
+
+.nagareWrapper {
+    margin: 0 auto;
+    width: 1280px;
+    padding: 30px;
+}
+
+.nagareTop {
+    margin-bottom: 60px;
+    text-align: center;
+
+}
+
+.nagareTop h2 {
+    margin-bottom: 20px;
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.nagareTop p {
+    font-size: 24px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #FFBB00;
+}
+
+.nagareContentsSet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px 50px;
+}
+
+.nagareContents {
+    margin-bottom: 50px;
+    width: 520px;
+    display: flex;
+    margin: 0 auto;
+    gap: 0 30px;
+}
+
+.nagareText2 {
+    width: 620px;
+}
+
+.nagareTextTitle {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.number {
+    font-size: 32px;
+    line-height: 1.2;
+    color: #FFBB00;
+    font-weight: 700;
+}
+
+.comments {
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+
+.nagareTextTitle p {
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+
+footer {
+    background-color: #FFBB00;
+    height: auto;
+}
+
+.footerWrapper {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footerContainer {
+    margin: 60px 0;
+    padding: 0 24px;
+    width: 923px;
+    height: 291px;
+}
+
+.footerText {
+    width: 606px;
+    height: 100%;
+}
+
+.kaisya {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.kaisyaDetail {
+    margin-top: 14px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.kaisyaDetails {
+    display: flex;
+    margin-top: 14px;
+}
+
+.c {
+    display: flex;
+    justify-content: end;
+    font-size: 10px;
+}
+
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+
+/*---------- チャットボットここから  ----------*/
+/* 今回は、li（幅100%）の中に、div（吹き出し）を
+挿入する。吹き出しの三角形は疑似要素を使用する。 */
+/*チャットボット本体*/
+#chatbot {
+    position: fixed;
+    overflow: hidden;
+    opacity: 1;
+    transition: .4s;
+    background: #FFF;
+    -webkit-font-smoothing: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: subpixel-antialiased;
+    /* Safari での Default値 */
+}
+
+#chatbot.chatbot-zoom {
+    height: 100vh;
+    width: 100vw;
+    box-shadow: none;
+    border-radius: 0;
+    top: 0;
+    left: 0;
+    margin: 0;
+    transition: 0;
+    transform: translate(0);
+    -webkit-transform: translate(0);
+    -moz-transform: translate(0);
+}
+
+@media screen and (min-width: 700px) {
+
+    /*PC*/
+    #chatbot {
+        height: 150px;
+        width: 350px;
+        /* bottom: 0; */
+        /* right: 0; */
+        /* margin: 0; */
+        box-shadow: 0px 0 25px -5px #888;
+        border-radius: 10px;
+        top: 80%;
+        left: 85%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+    }
+}
+
+#chatbot-header {
+    height: 60px;
+    background: orange;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+#chatbot-logo {
+    color: #FFF;
+    line-height: 60px;
+    padding: 0 30px;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+#chatbot-zoom-icon {
+    display: block;
+    height: 100%;
+    line-height: 60px;
+    padding: 0 20px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+#chatbot-zoom-icon:active {
+    background: #dc8f50;
+}
+
+/*チャットのフィールド*/
+#chatbot-body {
+    width: 100%;
+    height: calc(80vh - 110px);
+    padding-top: 10px;
+    background: #FFF;
+    box-sizing: border-box;
+    /*横向きのスクロール禁止*/
+    overflow-x: scroll;
+    /*縦向きのスクロール許可*/
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    /*IE、Edgeでスクロールバーを非表示にする*/
+    -ms-overflow-style: none;
+}
+
+#chatbot-body.chatbot-body-zoom {
+    width: 100%;
+}
+
+#chatbot-body.chatbot-body-zoom {
+    height: calc(100vh - 170px);
+}
+
+/*Chrome、Safariでスクロールバーを非表示にする*/
+#chatbot-body::-webkit-scrollbar {
+    display: none;
+}
+
+#chatbot-footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    box-sizing: border-box;
+    background: #FFF;
+    border-top: 1.5px solid #EEE;
+}
+
+@media screen and (min-width: 700px) {
+
+    /*PC*/
+    #chatbot-footer.chatbot-footer-zoom {
+        margin-bottom: 0;
+    }
+}
+
+/*入力する場所*/
+#chatbot-text {
+    height: 40px;
+    width: 72%;
+    display: block;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin: auto 10px auto 15px;
+    color: #dc8f50;
+    border: 0;
+    outline: 0;
+}
+
+#chatbot-text:focus {
+    border: none;
+    outline: none;
+}
+
+/*送信ボタン*/
+#chatbot-submit {
+    cursor: pointer;
+    height: 35px;
+    padding: 0 30px;
+    margin: auto;
+    margin-right: 15px;
+    font-size: 16px;
+    background: orange;
+    color: white;
+    display: block;
+    /*デフォルトのボーダーを消す*/
+    border: none;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+#chatbot-submit:active {
+    outline: 0;
+    background: #dc8f50;
+}
+
+#chatbot-ul {
+    /*ulのデフォルの隙間を消す*/
+    padding: 0;
+    list-style: none;
+}
+
+#chatbot-ul>li {
+    position: relative;
+    /* display: block; */
+    width: 100%;
+    padding-bottom: 10px;
+    word-wrap: break-word;
+}
+
+#chatbot-ul>li>div {
+    display: inline-block;
+    box-sizing: border-box;
+    min-height: 23px;
+    max-width: 70%;
+    padding: 7px 13px;
+    font-size: 16px;
+    line-height: 1.3em;
+    position: relative;
+}
+
+#chatbot-ul>li>div.chatbot-short {
+    width: 53%;
+}
+
+/*相手の吹き出しのデザイン*/
+.chatbot-left {
+    margin-left: 20px;
+    background: #E6F0F7;
+    border-radius: 0 9px 9px 9px;
+    color: orange;
+}
+
+.chatbot-left-rounded {
+    margin-left: 20px;
+    background: #E6F0F7;
+    border-radius: 9px;
+    color: orange;
+}
+
+/*自分の吹き出し*/
+.chatbot-right {
+    margin-right: 20px;
+    background: orange;
+    text-align: left;
+    border-radius: 9px 0 9px 9px;
+    color: #FFF;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.choice-title {
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 9px 9px 0 0;
+    text-align: center;
+    font-size: 15px;
+    top: 0;
+    left: 0;
+    background: orange;
+    color: #FFF;
+    letter-spacing: .05em;
+}
+
+.choice-q {
+    /*     width: 180px; */
+    margin: 25px 0 .7rem;
+    font-size: 15px;
+    line-height: 1.3em;
+    letter-spacing: .05em;
+}
+
+.choice-button {
+    cursor: pointer;
+    user-select: none;
+    background: orange;
+    color: #FFF;
+    border-radius: 3px;
+    /* margin-top: 8px; */
+    margin-bottom: 8px;
+    text-align: left;
+    padding: 7px 13px;
+    font-size: 16px;
+    line-height: 1.3em;
+    letter-spacing: .05em;
+    border: none;
+    display: block;
+    width: 100%;
+}
+
+.choice-button:active {
+    background: #B8D1E6;
+}
+
+.choice-button-disabled {
+    background: #e2c9b4;
+}
+
+/*---------- チャットボットここまで  ----------*/
+
+
+
+/*---------- ロボット考え中アニメーション ----------*/
+#robot-loading-field {
+    display: inline-block;
+    height: 100%;
+    width: 26px;
+    position: relative;
+}
+
+#robot-loading-field>span {
+    color: #dc8f50;
+    font-size: 10px;
+    transform: scale(.7);
+    position: absolute;
+    top: -12px;
+}
+
+#robot-loading-circle1 {
+    animation: rlc1 .8s linear infinite alternate;
+}
+
+@keyframes rlc1 {
+    0% {
+        margin-top: -6px;
+    }
+
+    25% {
+        margin-top: 0px;
+    }
+
+    50% {
+        margin-top: 6px;
+    }
+
+    75% {
+        margin-top: 0px;
+    }
+
+    100% {
+        margin-top: -6px;
+    }
+}
+
+#robot-loading-circle2 {
+    animation: rlc2 .8s linear infinite;
+    margin-left: 8px;
+}
+
+@keyframes rlc2 {
+    0% {
+        margin-top: 0px;
+    }
+
+    25% {
+        margin-top: -6px;
+    }
+
+    50% {
+        margin-top: 0px;
+    }
+
+    75% {
+        margin-top: 6px;
+    }
+
+    100% {
+        margin-top: 0px;
+    }
+}
+
+#robot-loading-circle3 {
+    animation: rlc3 .8s linear infinite alternate;
+    margin-left: 16px;
+}
+
+@keyframes rlc3 {
+    0% {
+        margin-top: 6px;
+    }
+
+    25% {
+        margin-top: 0px;
+    }
+
+    50% {
+        margin-top: -6px;
+    }
+
+    75% {
+        margin-top: 0px;
+    }
+
+    100% {
+        margin-top: 6px;
+    }
+}
+
+
+.finish {
+margin: 100px 200px;
+padding: 45px 45px;
+width: 788px;
+height: 336px;
+text-align: center;
+}
+
+.finish_1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFBB00;
+}
+
